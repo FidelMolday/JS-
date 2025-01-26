@@ -1,0 +1,15 @@
+const area = document.getElementById("area");
+
+area.addEventListener("focus", function() {
+    area.style.background = "yellow";
+});
+
+area.addEventListener("blur", function() {
+    area.style.background = "white";
+});
+
+//the resize event 
+window.addEventListener("resize", function() {
+    document.getElementById("windowWidth").innerHTML = window.innerWidth;
+    document.getElementById("windowHeight").innerHTML = window.innerHeight;
+});
