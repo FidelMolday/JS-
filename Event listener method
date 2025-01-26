@@ -1,0 +1,28 @@
+const select = document.getElementById('city');
+
+select.addEventListener('change',function(){
+    const val = document.getElementById("city").value;
+    document.getElementById("demo").inertia = val;
+});
+
+//the mouseover event
+const elem = document.getElementById("demo");
+
+elem.addEventListener("mouseover",function(){
+    elem.innerHTML = "Hello world!";
+});
+
+//the keypress event
+const area = document.getElementById("area");
+
+area.addEventListener("keypress",function(){
+    document.getElementById("demo").innerHTML = area.value;
+});
+
+
+//The focus event
+const areas = document.getElementById("areas");
+
+area.addEventListener("focus",function(){
+    area.style.background = "yellow";
+});
