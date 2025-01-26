@@ -1,0 +1,17 @@
+//button is clicked
+const btn = document.getElementById("btn");
+
+//the block of codes below is called event handler
+btn.onclick = function(){
+    alert("The button was clicked, and the task is to show this dialog box.");
+};
+
+//Inline event handlers
+<button onclick='alert("The button is clicked,and the task is to show dialog box.");'>Click me</button>
+
+//when button is clicked myFunc() will be called
+<btn onclick="myFunc()">Click me</btn>
+
+function myFunc() {
+    alert("Hello World");
+}
