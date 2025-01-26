@@ -1,0 +1,47 @@
+//string data type 
+const name = "Faith Chebet";
+const name1 = 'Faith Chebet';
+
+document.getElementById("demo").innerHTML = name + "<br/>" + name1;
+
+//Number Data Type
+const x = 4  //an integer
+const y = 5.5 //a floating point number
+const sum = x + y;
+
+document.getElementById("demo").innerHTML = sum;
+
+//boolean data type
+const isCodingFun = true;
+const isMathFun = true;
+
+document.getElementById("demo").innerHTML =
+"Is coding fun? " + isCodingFun + "<br/>" +
+"Is Math fun? " + isMathFun;
+
+//comparison operators
+const b = 3;
+const a = 3;
+const areTheyEqual = (x==y);
+
+document.getElementById("demo").innerHTML = areTheyEqual;
+
+//Object Data type
+const banana = {
+    color: "black",
+    size: "small",
+    quantity: "6",
+    isSweet: true,
+};
+
+//Javascript arrays
+const fruits = ["apple", "orange", "banana"];
+document.getElementById("demo").innerHTML = fruits[2];
+
+//undefined data
+let title;
+ document.getElementsById("demo").innerHTML = title;
+
+ //null data type
+ const fruit = null;
+ document.write(fruit); //prints null
